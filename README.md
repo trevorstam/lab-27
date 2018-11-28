@@ -6,37 +6,41 @@
 ### Author: Student/Group Name
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [sandbox](https://codesandbox.io/s/github/trevorstam/lab-27-react-testing/tree/master/)
+* [aws](issues deploying)
+
 
 ### Modules
-#### `modulename.js`
+#### `index.js`
 ##### Exported Values and Methods
+`class Main`
+`render(App)`
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+#### `App.js`
+##### Exported Values and Methods
+`class App`
+`render(Header, Counter, Footer)`
 
-###### `bar(array) -> array`
-Usage Notes or examples
+#### `header.js`
+##### Exported Values and Methods
+`class Header`
+`render(<header>)`
 
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+#### `counter.js`
+##### Exported Values and Methods
+`class Counter`
+handleUp
+handleDown
+updateCounter
+`render()`
 
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+#### `footer.js`
+##### Exported Values and Methods
+`class Footer`
+
 
 #### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+Check sandbox for jest & enzyme tests
 
 #### UML
-Link to an image of the UML for your application and response to events
+![UML](./assets/uml-27.jpg)
